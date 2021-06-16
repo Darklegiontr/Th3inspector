@@ -24,7 +24,7 @@ function termux() {
 echo -e "$red [$green+$red]$Cleaning Up Old Directories ...";
   rm -r "/data/data/com.termux/files/usr/share/Th3inspector"
   echo -e "$red [$green+$red]$off Installing ...";
-  git clone https://github.com/Moham3dRiahi/Th3inspector "/data/data/com.termux/files/usr/share/Th3inspector";
+  git clone https://github.com/Darklegiontr/Th3inspector "/data/data/com.termux/files/usr/share/Th3inspector";
   rm -r "/data/data/com.termux/files/usr/share/Th3inspector/config"
 
 if [ -d "/data/data/com.termux/files/usr/share/Th3inspector" ] ;
@@ -43,7 +43,7 @@ function linux() {
 echo -e "$red [$green+$red]$off Cleaning Up Old Directories ...";
   sudo rm -r "/usr/share/Th3inspector"
   echo -e "$red [$green+$red]$off Installing ...";
- sudo git clone https://github.com/Moham3dRiahi/Th3inspector "/usr/share/Th3inspector";
+ sudo git clone https://github.com/Darklegiontr/Th3inspector "/usr/share/Th3inspector";
   sudo rm -r "/usr/share/Th3inspector/config"
 
 if [ -d "/usr/share/Th3inspector" ] ;
